@@ -1,0 +1,151 @@
+@media only screen and (max-width: 700px) {
+
+#large {
+  display: none;
+}
+
+#small {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  display: none;
+}
+
+#learn {
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.learnleft {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.learnright {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin: 32px 16px;
+  width: 100%;
+}
+
+
+
+#practice {
+  padding-bottom: 16px;
+}
+
+.practiceleft {
+  display: none;
+}
+
+.practiceright {
+  width: 100%;
+}
+
+.practicerightinfo {
+  flex-flow: wrap column;
+  border: 0;
+  height: auto;
+}
+.practicerightimages {
+  min-width: 100%;
+  margin: 0;
+  padding: 16px;
+}
+
+.practicerightimaged {
+  display: none;
+}
+
+.practicerightimagedsmall {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.gray {
+  background-color: #D3D3D3;
+}
+
+.practicerighttext {
+  margin-left: 32px;
+  margin-bottom: 16px;
+}
+
+#learning {
+  padding-bottom: 24px;
+    background-color: white;
+}
+
+#learning h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0 8px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  line-height: 0.5rem;
+}
+
+.classes {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.class {
+  width: 100%;
+  margin: 8px 16px;
+  padding: 0;
+}
+
+.classtext {
+      background-color: #D3D3D3;
+}
+
+.classtext h3, p {
+  display: none;
+
+}
+
+.classimage {
+  display: none;
+}
+
+.classimaged {
+  display: none;
+}
+
+.thesisvideo {
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+#thesis {
+  padding-bottom: 24px;
+}
+.thesislefttext {
+  display: none;
+}
+
+.thesisright {
+  display: none;
+}
+
+footer {
+  justify-content: flex-start;
+}
+
+.links {
+  display: none;
+}
+}

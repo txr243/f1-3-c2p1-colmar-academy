@@ -1,0 +1,355 @@
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+  color: black;
+  font-size: 16px;
+  font-family: "Verdana", serif;
+
+}
+
+body {
+
+  background-color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  padding: 0 24px;
+  width: 100%;
+
+}
+
+.logo {
+  display: flex;
+}
+
+.logoleft {
+  font-weight: bold;
+}
+
+.logoright {
+  color: grey;
+}
+
+
+
+#large {
+  display: block;
+}
+
+#large a {
+  margin-left: 16px;
+}
+
+#small {
+  display: none;
+}
+
+#learn {
+  background-color: #D3D3D3;
+  display: flex;
+  padding: 32px 24px;
+
+}
+
+#learn h1 {
+
+  font-size: 2rem;
+  line-height: 1.8rem;
+}
+
+#learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: #333333;
+  border: 0;
+  border: 2px solid black;
+  color: white;
+  font-size: 1rem;
+  padding: 8px 0;
+}
+
+button:hover {
+  background-color: gray;
+  color: black;
+}
+
+.learnleft {
+  height: auto;
+  width: 60%;
+}
+
+.learnimage {
+
+  height: auto;
+  width: 100%;
+}
+
+.learnright {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+#practice {
+  display: flex;
+}
+
+#practice h1 {
+  font-size: 2rem;
+  line-height: 1.8rem;
+  margin: 32px 0 24px 0;
+}
+
+#practice h3 {
+  font-size: 1.5rem;
+}
+
+#practice h4 {
+
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+#practice a {
+  color: gray;
+}
+
+
+
+#practice a:hover {
+  text-decoration: none;
+}
+
+.practiceleft {
+  border-right: 1px solid #D3D3D3;
+  padding: 32px 24px;
+}
+
+.practiceimageleft {
+  height: auto;
+  width: 100%;
+}
+
+.practiceimage {
+  height: auto;
+  width: 100%;
+}
+
+.quote {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.practiceright {
+  min-width: 423px;
+}
+
+.practicerightinfo {
+  border-bottom: 1px solid #D3D3D3;
+  display: flex;
+  min-height: 168px;
+
+}
+
+.practicerightimages {
+  height: auto;
+  margin: 16px;
+  max-width: 33%;
+}
+
+.practicerightimaged {
+  height: auto;
+  width: 100%;
+}
+
+
+.practicerightimagedsmall {
+  display: none;
+}
+
+.practicerighttext {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+
+
+.gray {
+  background-color: #D3D3D3;
+}
+
+#learning {
+  background-color: #D3D3D3;
+  padding-bottom: 16px;
+}
+
+#learning h1 {
+  font-size: 2rem;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+#learning h2 {
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#learning h3 {
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+
+}
+
+.class {
+  background-color: #D3D3D3;
+  margin: 16px;
+  padding-bottom: 24px;
+  width: 30%;
+}
+
+.classtext {
+  background-color: white;
+  padding: 16px 16px;
+}
+
+
+
+.classimage {
+  height: auto;
+  width: 100%;
+}
+
+
+.classimagelarge {
+  height: auto;
+  width: 100%;
+}
+
+#thesis h1 {
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.thesisall {
+
+  display: flex;
+  width: 100%;
+}
+
+.thesisvideo {
+  height: auto;
+  padding-left: 24px;
+  width: 100%;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.thesislefttext {
+  margin: 24px 0 32px 24px;
+}
+
+.thesislefttext p {
+  margin-top: 16px;
+}
+
+.thesisright {
+  margin-left: 16px;
+  min-width: 423px;
+
+}
+
+.thesisrightbox {
+  align-items: center;
+  display: flex;
+  min-height: 168px;
+}
+
+.thesisrightimage {
+  height: auto;
+  margin: 16px;
+  max-width: 35%;
+}
+
+
+.thesisrightimaged {
+  height: auto;
+  width: 100%;
+}
+
+.thesisrighttext {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+footer {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.copyright {
+  display: block;
+  padding: 16px 0;
+}
+
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
